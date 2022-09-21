@@ -4,6 +4,8 @@ const path = require('path');
 const mongoose = require('mongoose');
 const Campground = require('./models/campground.js')
 const methodOverride = require('method-override');
+const morgan = require('morgan');
+
 
 mongoose.connect('mongodb://localhost:27017/yelp-camp')
 const db = mongoose.connection;
