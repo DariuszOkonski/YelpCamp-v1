@@ -23,7 +23,7 @@ const seedDb = async () => {
             location: `${cities[random1000].city}, ${cities[random1000].state}`,
             title: `${sample(descriptors)} ${sample(places)}`,
             image: 'https://source.unsplash.com/collection/483251',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deleniti esse nam vel dicta? Quasi odio nesciunt, vel, labore quisquam dignissimos odit porro reiciendis nostrum libero cumque obcaecati officia.',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deleniti esse nam vel dicta? Quasi odio nesciunt, vel, labore quisquam dignissimos odit porro reiciendis nostrum libero dolor sit amet consectetur adipisicing elit. Labore deleniti esse nam vel dicta? Quasi odio nesciunt, cumque obcaecati officia.',
             price
         })
 
